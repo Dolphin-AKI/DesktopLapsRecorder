@@ -1,0 +1,1383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trackBar_MotionThrethold.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="button_capwin_fullscreen.Text" xml:space="preserve">
+    <value>FullScreen</value>
+  </data>
+  <data name="&gt;&gt;groupBox_process.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox_standard.Text" xml:space="preserve">
+    <value>StandardSetting</value>
+  </data>
+  <data name="comboBox_recordMode.Items2" xml:space="preserve">
+    <value>MotionDetection(Lite)</value>
+  </data>
+  <data name="groupBox_recordMode.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox_Quality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 83</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_little.Parent" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="label_process_time_scale_little.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="button_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 35</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox_insert_dateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
+  <data name="trackBar_quality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 45</value>
+  </data>
+  <data name="&gt;&gt;button_set.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_process_time_scale_big.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 12</value>
+  </data>
+  <data name="&gt;&gt;LB_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBox_interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 52</value>
+  </data>
+  <data name="&gt;&gt;label_mode_description.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_capwin_fullscreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="LB_Interval.Text" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="LB_quality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_setCaptureWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;label_motion_detection_threthold_description.Name" xml:space="preserve">
+    <value>label_motion_detection_threthold_description</value>
+  </data>
+  <data name="label_motionThreshold_descript.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="&gt;&gt;label_motion_detection_threthold_description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_standard.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_recordmode.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="label_bitrate.Text" xml:space="preserve">
+    <value>label_bitrate</value>
+  </data>
+  <data name="txtBox_interval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="LB_interval_ext.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LB_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="label_bitrate.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_bitrate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LB_interval_ext.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="label_motionThrethold.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label_motion_detection_threthold_description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 88</value>
+  </data>
+  <data name="LB_interval_ext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 57</value>
+  </data>
+  <data name="infoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;LB_quality.Parent" xml:space="preserve">
+    <value>groupBox_Quality</value>
+  </data>
+  <data name="&gt;&gt;comboBox_recordMode.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox_recordMode.Items1" xml:space="preserve">
+    <value>MotionDetection</value>
+  </data>
+  <data name="label_bitrate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_process_time_scale_little.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>609, 595</value>
+  </data>
+  <data name="&gt;&gt;LB_quality.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox_recordMode.Name" xml:space="preserve">
+    <value>comboBox_recordMode</value>
+  </data>
+  <data name="label_recordmode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_Interval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 12</value>
+  </data>
+  <data name="&gt;&gt;groupBox_recordMode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_process_timeScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 45</value>
+  </data>
+  <data name="label_motion_detection_threthold_description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 12</value>
+  </data>
+  <data name="&gt;&gt;label_bitrate.Name" xml:space="preserve">
+    <value>label_bitrate</value>
+  </data>
+  <data name="LB_quality.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_mode_description.Name" xml:space="preserve">
+    <value>label_mode_description</value>
+  </data>
+  <data name="label_qualityvalue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_standard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;trackBar_process_timeScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_qualityvalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 30</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MotionThrethold.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_insert_dateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="groupBox_process.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;label_qualityvalue.Name" xml:space="preserve">
+    <value>label_qualityvalue</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="&gt;&gt;LB_info.Name" xml:space="preserve">
+    <value>LB_info</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_big.Name" xml:space="preserve">
+    <value>label_process_time_scale_big</value>
+  </data>
+  <data name="&gt;&gt;checkBox_insert_dateTime.Parent" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="&gt;&gt;LB_quality.Name" xml:space="preserve">
+    <value>LB_quality</value>
+  </data>
+  <data name="groupBox_Quality.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="button_cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label_mode_description.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_recordmode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 26</value>
+  </data>
+  <data name="&gt;&gt;label_motionThreshold_descript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_recordMode.Items3" xml:space="preserve">
+    <value>MotionDetection(Very Lite)*not recommended</value>
+  </data>
+  <data name="&gt;&gt;LB_interval_ext.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_process_scale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 12</value>
+  </data>
+  <data name="button_capwin_fullscreen.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;label_motionThreshold_descript.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Name" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="button_setCaptureWindow.Text" xml:space="preserve">
+    <value>Set Caputure Window</value>
+  </data>
+  <data name="LB_framerate.Text" xml:space="preserve">
+    <value>Frame Rate</value>
+  </data>
+  <data name="&gt;&gt;txtBox_interval.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_mode_description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_process_time_scale_little.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 63</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_big.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_motion_detection_threthold_description.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_mode_description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 12</value>
+  </data>
+  <data name="infoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate_ext.Name" xml:space="preserve">
+    <value>LB_framerate_ext</value>
+  </data>
+  <data name="label_motion_detection_threthold_description.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Quality.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_bitrate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 53</value>
+  </data>
+  <data name="LB_interval_ext.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Quality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_recordmode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="checkBox_insert_dateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 18</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="groupBox_recordMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 233</value>
+  </data>
+  <data name="&gt;&gt;CB_extension.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="&gt;&gt;label_recordmode.Name" xml:space="preserve">
+    <value>label_recordmode</value>
+  </data>
+  <data name="&gt;&gt;txtBox_interval.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="&gt;&gt;button_set.Name" xml:space="preserve">
+    <value>button_set</value>
+  </data>
+  <data name="&gt;&gt;label_qualityvalue.Parent" xml:space="preserve">
+    <value>groupBox_Quality</value>
+  </data>
+  <data name="label_motionThreshold_descript.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;label_motionThrethold.Name" xml:space="preserve">
+    <value>label_motionThrethold</value>
+  </data>
+  <data name="trackBar_quality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 30</value>
+  </data>
+  <data name="&gt;&gt;trackBar_process_timeScale.Parent" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="&gt;&gt;button_set.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_recordMode.Name" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="&gt;&gt;trackBar_process_timeScale.Name" xml:space="preserve">
+    <value>trackBar_process_timeScale</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="&gt;&gt;button_capwin_fullscreen.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_little.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_motion_detection_threthold_description.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;label_process_scale.Parent" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="&gt;&gt;groupBox_standard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="&gt;&gt;LB_quality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_interval_ext.Text" xml:space="preserve">
+    <value>millisec</value>
+  </data>
+  <data name="&gt;&gt;groupBox_process.Name" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="groupBox_recordMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 115</value>
+  </data>
+  <data name="&gt;&gt;trackBar_quality.Parent" xml:space="preserve">
+    <value>groupBox_Quality</value>
+  </data>
+  <data name="button_set.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="infoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 118</value>
+  </data>
+  <data name="label_mode_description.Text" xml:space="preserve">
+    <value>label_info</value>
+  </data>
+  <data name="&gt;&gt;label_process_scale.Name" xml:space="preserve">
+    <value>label_process_scale</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MotionThrethold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_mode_description.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;txtBox_interval.Name" xml:space="preserve">
+    <value>txtBox_interval</value>
+  </data>
+  <data name="&gt;&gt;textBox_fps.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LB_info.Parent" xml:space="preserve">
+    <value>infoPanel</value>
+  </data>
+  <data name="label_motion_detection_threthold_description.Text" xml:space="preserve">
+    <value>Records when pixel difference is over threshold from a past frame.</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_insert_dateTime.Name" xml:space="preserve">
+    <value>checkBox_insert_dateTime</value>
+  </data>
+  <data name="label_recordmode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_motionThreshold_descript.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox_recordMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_framerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label_bitrate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 12</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MotionThrethold.Name" xml:space="preserve">
+    <value>trackBar_MotionThrethold</value>
+  </data>
+  <data name="groupBox_standard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 118</value>
+  </data>
+  <data name="&gt;&gt;groupBox_recordMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 12</value>
+  </data>
+  <data name="trackBar_MotionThrethold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 55</value>
+  </data>
+  <data name="&gt;&gt;LB_Interval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_fps.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label_motionThrethold.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_process_time_scale_little.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="&gt;&gt;label_motionThreshold_descript.Name" xml:space="preserve">
+    <value>label_motionThreshold_descript</value>
+  </data>
+  <data name="&gt;&gt;label_bitrate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_set.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;button_setCaptureWindow.Name" xml:space="preserve">
+    <value>button_setCaptureWindow</value>
+  </data>
+  <data name="&gt;&gt;groupBox_standard.Name" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="LB_framerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="LB_framerate_ext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 91</value>
+  </data>
+  <data name="&gt;&gt;label_recordmode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_process_scale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_capwin_fullscreen.Name" xml:space="preserve">
+    <value>button_capwin_fullscreen</value>
+  </data>
+  <data name="comboBox_recordMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 23</value>
+  </data>
+  <data name="LB_info.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_process_scale.Text" xml:space="preserve">
+    <value>size</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_little.Name" xml:space="preserve">
+    <value>label_process_time_scale_little</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate_ext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CB_extension.Name" xml:space="preserve">
+    <value>CB_extension</value>
+  </data>
+  <data name="LB_info.Text" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="&gt;&gt;label_bitrate.Parent" xml:space="preserve">
+    <value>groupBox_Quality</value>
+  </data>
+  <data name="LB_framerate_ext.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;trackBar_quality.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 354</value>
+  </data>
+  <data name="button_cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 35</value>
+  </data>
+  <data name="LB_Interval.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_mode_description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_process_scale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_Quality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 144</value>
+  </data>
+  <data name="&gt;&gt;LB_Interval.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CB_extension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="&gt;&gt;label_qualityvalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_Quality.Text" xml:space="preserve">
+    <value>BitRate</value>
+  </data>
+  <data name="comboBox_recordMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 20</value>
+  </data>
+  <data name="groupBox_recordMode.Text" xml:space="preserve">
+    <value>Record Mode</value>
+  </data>
+  <data name="&gt;&gt;trackBar_process_timeScale.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LB_quality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="CB_extension.Items1" xml:space="preserve">
+    <value>MPEG4</value>
+  </data>
+  <data name="&gt;&gt;button_setCaptureWindow.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label_motionThrethold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 63</value>
+  </data>
+  <data name="&gt;&gt;checkBox_insert_dateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate_ext.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button_capwin_fullscreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_setCaptureWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 23</value>
+  </data>
+  <data name="button_setCaptureWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 22</value>
+  </data>
+  <data name="groupBox_process.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 452</value>
+  </data>
+  <data name="trackBar_process_timeScale.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label_motionThrethold.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_insert_dateTime.Text" xml:space="preserve">
+    <value>Insert Date Time</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_big.Parent" xml:space="preserve">
+    <value>groupBox_process</value>
+  </data>
+  <data name="&gt;&gt;trackBar_quality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_fps.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="&gt;&gt;button_capwin_fullscreen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox_process.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 79</value>
+  </data>
+  <data name="LB_interval_ext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 12</value>
+  </data>
+  <data name="CB_extension.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="&gt;&gt;label_process_scale.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_insert_dateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;groupBox_process.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox_recordMode.Items" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="label_process_scale.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="LB_framerate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;checkBox_insert_dateTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_Interval.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="&gt;&gt;CB_extension.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBox_interval.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="LB_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="LB_Interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="groupBox_process.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="&gt;&gt;trackBar_quality.Name" xml:space="preserve">
+    <value>trackBar_quality</value>
+  </data>
+  <data name="LB_quality.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="button_cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 548</value>
+  </data>
+  <data name="LB_framerate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox_fps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 84</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate_ext.Parent" xml:space="preserve">
+    <value>groupBox_standard</value>
+  </data>
+  <data name="label_motionThrethold.Text" xml:space="preserve">
+    <value>label2%</value>
+  </data>
+  <data name="LB_framerate_ext.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button_capwin_fullscreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 51</value>
+  </data>
+  <data name="&gt;&gt;LB_info.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_motionThreshold_descript.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate.Name" xml:space="preserve">
+    <value>LB_framerate</value>
+  </data>
+  <data name="label_qualityvalue.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAgIAAAAEACAAoTAAAFgAAACgAAACAAAAAAAEAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMCktAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29gAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb2
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb2
+        9vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA9vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb29vb29gkJAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb2
+        9vb2CQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb2
+        9vb29vb29vb29vb2CQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb2
+        9vb29vb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ
+        9vb29vb29vb29vb29vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAkJ9vb29vb29vb29vb29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQkJCfb2AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAACQn29vb29vb29vb29vb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJCQkJ
+        9vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQn29vb29vb29vb29vb29vb29vb29vb29vb29gkJCQkJCQkJ
+        CQkJCQkJCQn29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQn29vb29vb29vb29vb29vb29vb29vb29vb2
+        CQkJCQkJCQkJCQkJCQkJCfb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQn29vb29vb29vb29vb29vb2
+        9vb29vb29vYJCQkJCQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb2CQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQn29vb29vb2
+        9vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJ
+        Cfb29vb29vb29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29vYJCQkJ
+        CQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAACQkJCQkJCfb29vb29vb29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQkJ9vb29vb29vb29vb2
+        9vb29gkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAJCQkJCQkJCfb29vb29vb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJCfb29vb2
+        9vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCfb29vb29vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJ
+        CQkJ9vb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCfb29vb29vb29vb29vb29vb29vb2CQkJ
+        CQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJ9vb29vb29vb29vb29vb2
+        9vb29vYJCQkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJ9vb29vb2
+        9vb29vb29vb29vb29gkJCQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQkAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJ
+        CQkJ9vb29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJCQkJCQkJ
+        CQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ
+        CQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29vYJ
+        CQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQkJ9vb29vb29vb2
+        9vb29vb29gkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAD2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQn2
+        9vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAPb2AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJCQkJ
+        CQkJCQkJCfb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAA9vYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQn29vb29vb29vb29vb2
+        9vYJCQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAD2
+        9vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQn29vb2
+        9vb29vb29vb29gkJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJAAAAAAAAAAAA
+        AAAAAAAA9vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJ
+        CQkJCfb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkA
+        AAAAAAAAAAAAAAAAAAD29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJ
+        CQkJCQkJCQkJCQkJCfb29vb29vb29vb29vYJCQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb29gkJCQkJ
+        CQkJCQkJCQAAAAAAAAAAAAAAAAAAAPb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAACQkJCQkJCQkJCQkJCQkJCQkJCfb29vb29vb29vb29gkJCQkJCQkJCQkJCQn29vb29vb29vb29vb2
+        9vYJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAA9vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCfb29vb29vb29vb2CQkJCQkJCQkJCQkJCfb29vb2
+        9vb29vb29vb29gkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAPb29vb29vYAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCfb29vb29vb29vYJCQkJCQkJCQkJ
+        CQkJ9vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAA9vb29vb29gAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJ9vb29vb29vb29gkJ
+        CQkJCQkJCQkJCQn29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAD29vb29vb2
+        9gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ9vb2
+        9vb29vb29gkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAA
+        APb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJ9vb29vb29vb2CQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkJAAAAAAAA
+        AAAAAAAAAAAA9vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJ9vb29vb29vYJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vYJCQkJCQkJCQkJ
+        CQkAAAAAAAAAAAAAAAAAAPb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ9vb29vb29gkJCQkJCQkJCQkJCfb29vb29vb29vb29vb29gkJ
+        CQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn29vb29vb2CQkJCQkJCQkJCQkJ9vb29vb29vb2
+        9vb29vb2CQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn29vb29vYJCQkJCQkJCQkJCQn2
+        9vb29vb29vb29vb29vYJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29gAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn29vb29gkJCQkJ
+        CQkJCQkJCfb29vb29vb29vb29vb29gkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb2
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn2
+        9vb2CQkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAPb29vb2
+        9vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCfb29vYJCQkJCQkJCQkJCfb29vb29vb29vb29vb29gkJCQkJCQkJCQkJCQAAAAAAAAAAAAAA
+        AAAA9vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCfb29gkJCQkJCQkJCQkJ9vb29vb29vb29vb29vb2CQkJCQkJCQkJCQkAAAAA
+        AAAAAAAAAAAAAAD29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCfb29gkJCQkJCQkJCQn29vb29vb29vb29vb29vYJCQkJCQkJ
+        CQkJCQAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAACfb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2AAkJCQkJCQkJCfb29vb29vb29vb29vb2
+        9gkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAACQkJCQkJ9vb29vb2
+        9vb29vb29vb2CQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb2AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAA
+        CQn29vb29vb29vb29vb29vYJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vYA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vYA
+        AAAAAAAAAAAAAPb29vb29vb29vb29vb29gkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAD29vb29vb29vb2
+        9vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb2
+        9vb29vb29gAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb2CQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAA9vb2
+        9vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb2
+        9vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vYJCQkJCQkJCQkJAAAAAAAAAAAA
+        AAAAAAD29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb2
+        9vb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29gkJCQkJCQkJCQkA
+        AAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29gkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJ
+        CQkJCQkJCQAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vYJCQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAACQkJCQkJAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb2CQkJCQAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAACQkAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29gkJCQkJAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vYJ
+        CQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb29vb2
+        9vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb2
+        9vb29vb2CQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb2
+        9vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        9vb29vb29vb29vb29gkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb2
+        9vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD29vb29vb29vb29vb2CQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb2
+        9vb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29gkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vYJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb2CQkJCQkJCQkJCQkJCQAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29gkJCQkJCQkJCQkJ
+        CQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vYA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vYJCQkJ
+        CQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb2
+        9vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        APb2CQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb2
+        9vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA9gkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb2
+        9vb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29vb29vb29vb29vb29gkAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb29vb29vb29vb29vb29vb2CQkJCQAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vYJCQkJCQkJ
+        CQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29vb29vb29vb2CQkJCQkJ
+        CQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAA9vb2
+        9vb29vYJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb29vb29vb29vb29gkJ
+        CQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkAAAAAAAAA
+        AAAA9vb29vb29vb29vb29gkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb29vb29vb29vb2
+        9gkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJ
+        CQkJCQkJCfb29vb29vb29vb29vb29vb29vb29gkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb2
+        9vb29vYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAJCQkJCQkJCQkJCQn29vb29vb29vb29vb29vb29vb29vb29vb2CQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAPb29vYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACQkJCQkJCQkJCfb29vb29vb29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCfb29vb29vb29vb29vb29vb29vb29vb29vYAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJ9vb29vb29vb29vb29vb29vb29vb2
+        9vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQn29vb29vb29vb29vb2
+        9vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCfb29vb2
+        9vb29vb29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAACfb29vb29vb29vb29vb29vb29vb29vYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA9gD29vb29vb29vb29vb29vb29vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD29vb29vb29vb29vb29gAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPb29vb29vb2AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJ
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJCQkJCQkJCQkJCQkJAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQkJ
+        CQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////+f////////////////////gf///////////////
+        ////4A///////////////////+AA///////////////////gAB//////////////////4AAD////////
+        /////////+AAAD/////////////////gAAAH////////////////4AAAAH///////////////+AAAAAP
+        ///////////////gAAAAAf//////////////4AAAAAAf/////////////+AAAAAAA//////////////g
+        AAAAAAA/////////////4AAAAAAAB////////////+AAAAAAAAD////////////gAAAAAAAAD///////
+        ////4AAAAAAAAAH//////////+AAAAAAAAAAH//////////gAAAAAAAAAAP/////////4AAAAAAAAAAA
+        f////////+AAAAAAAAAAAAf////////gAAAAAAAAAAAA////////4AAAAAAAAAAAAD///////+AAAAAA
+        AAAAAAB/+f/////gAAAAAAAAAAAAf/n/////4AAAAAAAAAAAAH/z/////+AAAAAAAAAAAAD/8f/////g
+        AAAAAAAAAAAA//H/////4AAAAAAAAAAAAP/w/////+AAAAAAAAAAAAD/4P/////gAAAAAAAAAAAA/+D/
+        ////4AAAAAAAAAAAAP/gf////+AAAAAAAAAAAAH/4H/////gAAAAAAAAAAAB/8A/////4AAAAAAAAAAA
+        Af/AP////+AAAAAAAAAAAAH/wB/////gAAAAAAAAAAAB/8Af////4AAAAAAAAAAAAf/AD////+AAAAAA
+        AAAAAAP/gA/////gAAAAAAAAAAAD/4AH////4AAAAAAAAAAAA/+AB////+AAAAAAAAAAAAP/gAP////g
+        AAAAAAAAAAAD/wAD////4AAAAAAAAAAAA/8AA////+AAAAAAAAAAAAf/AAH////gAAAAAAAAAAAH/wAB
+        ////4AAAAAAAAAAAB/8AAP///+AAAAAAAAAAAAf+AAD////gAAAAAAAAAAAH/gAAf///4AAAAAAAAAAA
+        B/4AAH///+AAAAAAAAAAAA/+AAA////gAAAAAAAAAAAP/AAAP///4AAAAAAAAAAAD/wAAD///+AAAAAA
+        AAAAAA/8AAAf///gAAAAAAAAAAAP/AAAH///4AAAAAHAAAAAD/wAAA///+AAAAAB+AAAAB/4AAAP///g
+        AAAAAf+AAAAf+AAAD///8AAAAAH/+AAAH/gAAA////AAAAAB//8AAB/4AAAH///wAAAAAf//8AAf8AAA
+        B///8AAAAAH///4AH/AAAAf///AAAAAB////4D/wAAAD///wAAAAAf////w/8AAAA///8AAAAAH/////
+        v+AAAAP///AAAAAB///////gAAAB///wAAAAAf//////8AAAAf//8AAAAAH///////wAAAH///AAAAAB
+        /7/////8AAAB///wAAAAAf8f/////gAAAP//8AAAAAH/g/////8AAAD///AAAAAB/8D/////gAAA///w
+        AAAAAf/wH////4AAAP//8AAAAAH//AH////AAAD///AAAAAB//8AP///wAAA///wAAAAAf//gAP//8AA
+        AP//8AAAAAH//+AAP//AAAD///AAAAAB///wAAH/gAAAf//wAAAAAP///AAAAAAAAH//8AAAAAD///8A
+        AAAAAAB///AAAAAA////wAAAAAAAf//wAAAAAP///+AAAAAAAH//8AAAAAD////4AAAAAAD///AAAAAA
+        /////wAAAAAA///wAAAAAP/////AAAAAAP//8AAAAAD/////8AAAAAD///AAAAAA//////wAAAAB///w
+        AAAAAP//////AAAAAf//8AAAAAD//////+AAAAP///AAAAAA///////4AAAH///wAAAAAP///////gAA
+        D///8AAAAAD////////gAB////AAAAAA/////////gD////wAAAAAP//////////////8AAAAAD/////
+        //////////AAAAAA///////////////wAAAAAP//////////////8AAAAAD///////////////AAAAAA
+        ///////////////wAAAAAP//////////////8AAAAAD///////////////AAAAAA///////////////w
+        AAAAAP//////////////8AAAAAD///////////////AAAAAA///////////////wAAAAA///////////
+        ////8AAAAB////////////////AAAAD////////////////wAAAD////////////////8AAAH///////
+        //////////AAAP/////////////////wAAf/////////////////8AA///////////////////AB////
+        ///////////////wD///////////////////4H///////////////////+P/////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_Setting</value>
+  </data>
+  <data name="&gt;&gt;LB_interval_ext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_standard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CB_extension.Items" xml:space="preserve">
+    <value>Raw</value>
+  </data>
+  <data name="&gt;&gt;groupBox_recordMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_process_time_scale_big.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_motionThreshold_descript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 63</value>
+  </data>
+  <data name="&gt;&gt;comboBox_recordMode.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="&gt;&gt;label_motionThrethold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_fps.Name" xml:space="preserve">
+    <value>textBox_fps</value>
+  </data>
+  <data name="LB_framerate_ext.Text" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="LB_framerate_ext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox_standard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="LB_quality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label_motionThrethold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="trackBar_MotionThrethold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 45</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Name" xml:space="preserve">
+    <value>button_cancel</value>
+  </data>
+  <data name="comboBox_recordMode.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="trackBar_process_timeScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 15</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Quality.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_process_time_scale_little.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;label_qualityvalue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_fps.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="CB_extension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="textBox_fps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="label_qualityvalue.Text" xml:space="preserve">
+    <value>label_qualityvalue</value>
+  </data>
+  <data name="label_process_time_scale_big.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>CaptureRegion</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_little.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_recordmode.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CB_extension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_recordmode.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 88</value>
+  </data>
+  <data name="label_process_time_scale_little.Text" xml:space="preserve">
+    <value>small</value>
+  </data>
+  <data name="&gt;&gt;txtBox_interval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_process.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBox_interval.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Quality.Name" xml:space="preserve">
+    <value>groupBox_Quality</value>
+  </data>
+  <data name="button_set.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 548</value>
+  </data>
+  <data name="label_process_scale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 18</value>
+  </data>
+  <data name="&gt;&gt;button_cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;button_setCaptureWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_motion_detection_threthold_description.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="CB_extension.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_motionThreshold_descript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 12</value>
+  </data>
+  <data name="&gt;&gt;label_motionThrethold.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="&gt;&gt;LB_framerate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_process_time_scale_big.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar_quality.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LB_framerate_ext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 12</value>
+  </data>
+  <data name="&gt;&gt;LB_interval_ext.Name" xml:space="preserve">
+    <value>LB_interval_ext</value>
+  </data>
+  <data name="LB_Interval.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label_bitrate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MotionThrethold.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_process_time_scale_big.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 63</value>
+  </data>
+  <data name="label_qualityvalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="&gt;&gt;textBox_fps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_setCaptureWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_mode_description.Parent" xml:space="preserve">
+    <value>groupBox_recordMode</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LB_Interval.Name" xml:space="preserve">
+    <value>LB_Interval</value>
+  </data>
+  <data name="label_process_time_scale_big.Text" xml:space="preserve">
+    <value>big</value>
+  </data>
+  <data name="label_qualityvalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
+  </metadata>
+</root>
